@@ -7,7 +7,7 @@ const BRANDS = [
     { name: "Sonali Bank", src: "/brands/sonali.png" },
     { name: "Modhumita", src: "/brands/modhumoti.png" },
     { name: "Hatil", src: "/brands/hatil.png" },
-    { name: "Starlink", src: "/brands/starlink.png" },
+    { name: "Starlink", src: "/brands/Starlink.svg" },
 ]
 
 export function BrandsSection() {

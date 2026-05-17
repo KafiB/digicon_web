@@ -65,18 +65,17 @@ export function MultipleSupportsSection() {
                                 <img
                                     src="/icons/4th row/1st_container_1st_image.svg"
                                     alt="Service 1"
-                                    className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] object-contain hover:scale-110 transition-transform duration-300"
-                                />
+                                    className="w-[90px] h-[90px] md:w-[120px] md:h-[120px] object-contain hover:scale-110 transition-transform duration-300" />
                                 <div className="flex gap-3">
                                     <img
                                         src="/icons/4th row/1st_container_2nd_image.svg"
                                         alt="Service 2"
-                                        className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] object-contain hover:scale-110 transition-transform duration-300"
+                                        className="w-[90px] h-[90px] md:w-[120px] md:h-[120px] object-contain hover:scale-110 transition-transform duration-300"
                                     />
                                     <img
                                         src="/icons/4th row/1st_container_3rd_image.svg"
                                         alt="Service 3"
-                                        className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] object-contain hover:scale-110 transition-transform duration-300"
+                                        className="w-[90px] h-[90px] md:w-[120px] md:h-[120px] object-contain hover:scale-110 transition-transform duration-300"
                                     />
                                 </div>
                             </div>
@@ -85,13 +84,15 @@ export function MultipleSupportsSection() {
                     </div>
 
                     {/* ── CARD 2: Performance Stats ── */}
-                    <div className="w-full lg:w-[40%] bg-[#1E1E2E] rounded-2xl p-6 md:p-8 flex flex-col gap-4">
+                    <div
+                        className="w-full lg:w-[40%] bg-[#1E1E2E] rounded-2xl p-6 md:p-8 flex flex-col gap-4"
+                        style={{ fontFamily: "Poppins, sans-serif" }}
+                    >
 
                         {/* Title */}
                         <h3
                             className="text-white text-[18px] md:text-[20px] font-bold"
                             style={{
-                                fontFamily: "Poppins, sans-serif",
                                 opacity: visible ? 1 : 0,
                                 transform: visible ? "translateY(0)" : "translateY(-20px)",
                                 transition: "all 0.7s ease-in-out",
@@ -191,14 +192,12 @@ export function MultipleSupportsSection() {
                         >
                             Worldwide Reach
                         </h3>
-
                         {/* Globe */}
-                        {/* Globe — shows 50%, rotates on hover */}
                         <div className="flex justify-center overflow-hidden h-[80px] md:h-[100px]">
                             <img
                                 src="/icons/4th row/earth.svg"
                                 alt="Earth"
-                                className="w-[160px] h-[160px] md:w-[200px] md:h-[200px] object-contain hover:rotate-180 transition-transform duration-700 -mt-4"
+                                className="w-[160px] h-[160px] md:w-[200px] md:h-[200px] object-contain hover:rotate-180 transition-transform duration-700 translate-y-6"
                             />
                         </div>
                         {/* Stats */}
@@ -269,7 +268,7 @@ export function MultipleSupportsSection() {
                             <img
                                 src="/icons/4th row/4th_container_image.svg"
                                 alt="Fully Integrated Solutions"
-                                className="w-full max-w-[160px] sm:max-w-[200px] md:max-w-[220px] h-auto object-contain rounded-xl hover:scale-105 transition-transform duration-300"
+                                className="w-full max-w-[220px] sm:max-w-[260px] md:max-w-[300px] h-auto object-contain rounded-xl hover:scale-105 transition-transform duration-300"
                             />
                         </div>
 
